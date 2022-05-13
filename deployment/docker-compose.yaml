@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mongo:
+    container_name: trade
+    image: 'igs170911/trade:0.0.1'
+    ports:
+      - '8090:8090'
+
+
